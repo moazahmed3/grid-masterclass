@@ -10,7 +10,7 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr 1fr 0.5fr;
   /* grid-auto-columns: 1fr; */
   gap: 0px 0px;
   /* grid-auto-flow: row; */
@@ -144,6 +144,7 @@ a {
   width: 373px;
   height: 373px;
   padding: 60px;
+  margin: auto;
 }
 .item-7 h2 {
   color: #fff;
@@ -223,8 +224,13 @@ a {
   background-color: #16c5e8e7;
   color: #fff;
   text-align: center;
-  padding: 60px;
+  width: 260px;
+  height: 260px;
+  padding-right: 34px;
+  padding-left: 34px;
+  padding-top: 30px;
   border-radius: 50%;
+  margin: auto;
 }
 .item-10 img {
   width: 60px;
