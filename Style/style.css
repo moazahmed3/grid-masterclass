@@ -293,6 +293,9 @@ a {
       "item-11 item-11 item-11 item-11"
       "item-12 item-12 item-12 item-12";
   }
+  .item-10{
+    display: flex;
+  }
 }
 @media (max-width: 767.98px) {
 }
